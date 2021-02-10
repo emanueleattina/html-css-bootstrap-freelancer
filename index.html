@@ -6,8 +6,17 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Bootstrap Freelancer</title>
 
-    <!-- link al css di bootstrap -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- bootstrap 3 -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+      integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
     <!-- link al mio master.css -->
     <link rel="stylesheet" href="./assets/css/master.css">
@@ -15,28 +24,122 @@
   </head>
 
   <body>
-    <div class="navbar navbar-default navbar-fixed-top text-uppercase">
-      <div class="container">
-        <a class="navbar-brand" href="#">start bootstrap</a>
+    <header>
+      <nav class="navbar navbar-default navbar-fixed-top text-uppercase">
+        <div class="container">
+          <a class="navbar-brand" href="#">start bootstrap</a>
 
-        <button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
+          <!-- <button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse"> -->
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
 
-        <div class="collapse navbar-collapse navHeaderCollapse">
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="#">portfolio</a></li>
-            <li><a href="#">about</a></li>
-            <li><a href="#">contact</a></li>
+          <div class="collapse navbar-collapse navHeaderCollapse">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#">portfolio</a></li>
+              <li><a href="#">about</a></li>
+              <li><a href="#">contact</a></li>
+            </ul>
+          </div>
+        </div>
 
-          </ul>
+      </nav>
+
+      <div class="jumbo">
+        <div class="row">
+          <div class="container-fluid">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+              <div class="jumbo-content text-uppercase text-center">
+                <img src="./assets/img/avataaars.svg" alt="">
+                <h1>start bootstrap</h1>
+
+                <div class="stella">
+                  <div class="divisore"></div>
+                  <i class="fas fa-star"></i>
+                  <div class="divisore"></div>
+                </div>
+
+                <h3>graphic artist - web designer - illustrator</h3>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
+    </header>
 
-    </div>
+    <main>
+      <section class="portfolio">
+        <div class="row">
+          <div class="container-fluid">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+              <div class="portfolio-title text-uppercase text-center">
+                <h1>portfolio</h1>
 
+                <div class="stella">
+                  <div class="divisore"></div>
+                  <i class="fas fa-star"></i>
+                  <div class="divisore"></div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="row">
+          <div class="container">
+              <div class="griglia">
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 mb-20">
+                  <div class="lavoro">
+                    <img class="img-responsive" src="./assets/img/portfolio/cabin.png" alt="">
+                  </div>
+                </div>
+
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 mb-20">
+                  <div class="lavoro">
+                    <img class="img-responsive" src="./assets/img/portfolio/cake.png" alt="">
+                  </div>
+                </div>
+
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 mb-20">
+                  <div class="lavoro">
+                    <img class="img-responsive" src="./assets/img/portfolio/circus.png" alt="">
+                  </div>
+                </div>
+
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+                  <div class="lavoro">
+                    <img class="img-responsive" src="./assets/img/portfolio/game.png" alt="">
+                  </div>
+                </div>
+
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+                  <div class="lavoro">
+                    <img class="img-responsive" src="./assets/img/portfolio/safe.png" alt="">
+                  </div>
+                </div>
+
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+                  <div class="lavoro">
+                    <img class="img-responsive" src="./assets/img/portfolio/submarine.png" alt="">
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+      </section>
+    </main>
+
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   </body>

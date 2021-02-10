@@ -2,6 +2,25 @@
 /* blu chiaro #39546D */
 /* verde acqua #1ABC9C */
 
+body
+{
+  font-family: 'Poppins', sans-serif;
+}
+
+/* CLASSI UTILITY */
+.mt-40
+{
+  margin-top: 40px;
+}
+
+.mb-20
+{
+  margin-bottom: 20px;
+}
+/* FINE CLASSI UTILITY */
+
+/* HEADER */
+/* NAVBAR */
 .navbar-default
 {
     background-color: #2C3D50;
@@ -10,10 +29,7 @@
 
 .navbar-brand
 {
-  height: 70px;
-  padding: 0;
   font-size: 20px;
-  line-height: 70px;
   font-weight: bold;
 }
 
@@ -48,11 +64,7 @@
 
 .nav li a
 {
-  position: relative;
-  display: block;
-  padding: 0 15px;
-  line-height: 70px;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .navbar-default .navbar-toggle
@@ -60,7 +72,97 @@
   border-color: #fff;
 }
 
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:active,
+.navbar-default .navbar-toggle:visited
+{
+  border-color: #fff;
+  background: none;
+}
+
 .navbar-default .navbar-toggle .icon-bar
 {
   background: #fff;
 }
+/* FINE NAVBAR */
+
+/* JUMBO */
+.jumbo
+{
+  background: #1ABC9C;
+  padding: 40px 0;
+  margin-top: 50px;
+}
+
+.jumbo-content
+{
+  color: white;
+}
+
+.jumbo-content img
+{
+  height: 200px;
+}
+
+.jumbo-content h1
+{
+  font-weight: 600;
+  font-size: 55px;
+}
+
+.jumbo-content i
+{
+  font-size: 25px;
+}
+
+.stella
+{
+  margin-top: 20px;
+}
+
+.jumbo-content .stella .divisore
+{
+  height: 4px;
+  width: 180px;
+  border-radius: 10px;
+  background: #fff;
+  display: inline-block;
+}
+/* FINE JUMBO */
+/* FINE HEADER */
+
+/* MAIN */
+/* SECTION PORTFOLIO */
+
+.portfolio
+{
+  padding: 40px 0;
+  color: #2C3D50;
+}
+
+.portfolio-title .stella .divisore
+{
+  height: 4px;
+  width: 180px;
+  border-radius: 10px;
+  background: #2C3D50;
+  display: inline-block;
+}
+
+.portfolio-title .stella i
+{
+  font-size: 25px;
+}
+
+.griglia
+{
+  padding: 20px;
+}
+
+.lavoro img
+{
+  border-radius: 10px;
+}
+
+/* FINE SECTION PORTFOLIO */
+/* FINE MAIN */
