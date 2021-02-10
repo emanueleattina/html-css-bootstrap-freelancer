@@ -1,0 +1,66 @@
+/* blu navbar #2C3D50 */
+/* blu chiaro #39546D */
+/* verde acqua #1ABC9C */
+
+.navbar-default
+{
+    background-color: #2C3D50;
+    border-color: #2C3D50;
+}
+
+.navbar-brand
+{
+  height: 70px;
+  padding: 0;
+  font-size: 20px;
+  line-height: 70px;
+  font-weight: bold;
+}
+
+.navbar-default .navbar-brand,
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:active,
+.navbar-default .navbar-brand:visited
+{
+  color: #fff;
+}
+
+.navbar-default .navbar-brand:hover
+{
+  color: #fff;
+}
+
+.navbar-default .navbar-nav li a,
+.navbar-default .navbar-nav li a:visited
+{
+  color: #fff;
+}
+
+.navbar-default .navbar-nav li a:hover
+{
+  color: #1ABC9C;
+}
+
+.nav .navbar-nav .navbar-right
+{
+
+}
+
+.nav li a
+{
+  position: relative;
+  display: block;
+  padding: 0 15px;
+  line-height: 70px;
+  font-weight: 500;
+}
+
+.navbar-default .navbar-toggle
+{
+  border-color: #fff;
+}
+
+.navbar-default .navbar-toggle .icon-bar
+{
+  background: #fff;
+}
