@@ -6,7 +6,6 @@
 body
 {
   font-family: 'Poppins', sans-serif;
-  height: 3000px;
   font-size: 16px;
 }
 
@@ -26,6 +25,11 @@ body
   margin-top: 20px;
 }
 
+.mt-10
+{
+  margin-top: 10px;
+}
+
 .mb-40
 {
   margin-bottom: 40px;
@@ -34,6 +38,11 @@ body
 .mb-20
 {
   margin-bottom: 20px;
+}
+
+.ml-15
+{
+  margin-left: 15px;
 }
 /* FINE CLASSI UTILITY */
 
@@ -174,7 +183,7 @@ body
 .portfolio-title h2
 {
   font-size: 3em;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .portfolio-title .stella i
@@ -209,7 +218,7 @@ body
 .about-title h2
 {
   font-size: 3em;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .about-title .stella .divisore
@@ -272,7 +281,7 @@ body
 .contact-title h2
 {
   font-size: 3em;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .contact-title .stella .divisore
@@ -334,13 +343,90 @@ body
 
 /* FOOTER */
 /* PRIMA SECTION FOOTER */
-.location h4, .social h4, .freelencer h4
+.info
 {
+  background: #2C3D50;
+  padding: 40px 0;
+  color: #fff;
+}
 
+.info-text h4
+{
+  font-size: 1.5em;
+  font-weight: 700;
+}
+
+.social-network
+{
+	list-style: none;
+	display: inline;
+	padding: 0;
+}
+.social-network li
+{
+	display: inline;
+	margin: 0 5px;
+}
+
+.social-circle li a
+{
+	display:inline-block;
+	position:relative;
+	margin:0 auto 0 auto;
+  border: 2px solid #fff;
+	border-radius: 50%;
+	text-align:center;
+	width: 50px;
+	height: 50px;
+	font-size: 20px;
+	background: none;
+  color: #fff;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.social-circle li i
+{
+	margin:0;
+  vertical-align: middle;
+  line-height: 50px;
+	text-align: center;
+}
+
+.social-circle li a:hover
+{
+	display:inline-block;
+	position:relative;
+	margin:0 auto 0 auto;
+  border: 2px solid #fff;
+	border-radius: 50%;
+	text-align:center;
+	width: 50px;
+	height: 50px;
+	font-size: 20px;
+	background: #fff;
+  color: #2C3D50;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.info-text p a
+{
+  color: #1ABC9C;
+}
+
+.info-text p a:hover
+{
+  color: #139a7f;
+  text-decoration: none;
 }
 /* FINE PRIMA SECTION FOOTER */
 
 /* SECONDA SECTION FOOTER */
-
+.copyright
+{
+  padding: 30px 0;
+  color: #fff;
+  text-align: center;
+  background: #1A252F;
+  font-size: 0.8em;
+}
 /* FINE SECONDA SECTION FOOTER */
 /* FINE FOOTER */
