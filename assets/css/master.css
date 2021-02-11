@@ -201,6 +201,41 @@ body
   border-radius: 10px;
 }
 
+.overlay
+{
+  height: 100%;
+  width: 100%;
+}
+
+.img-overlay
+{
+  border-radius: 10px;
+  background: #1ABC9C;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transition: 0.2s ease;
+}
+
+.lavoro:hover .img-overlay
+{
+  opacity: 0.6;
+}
+
+.img-overlay i
+{
+  color: white;
+  font-size: 5em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
 /* FINE SECTION PORTFOLIO */
 
 /* SECTION ABOUT */
