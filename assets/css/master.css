@@ -1,16 +1,34 @@
 /* blu navbar #2C3D50 */
+/* blu scuro footer #1A252F */
 /* blu chiaro #39546D */
 /* verde acqua #1ABC9C */
 
 body
 {
   font-family: 'Poppins', sans-serif;
+  height: 3000px;
+  font-size: 16px;
 }
 
 /* CLASSI UTILITY */
 .mt-40
 {
   margin-top: 40px;
+}
+
+.mt-30
+{
+  margin-top: 30px;
+}
+
+.mt-20
+{
+  margin-top: 20px;
+}
+
+.mb-40
+{
+  margin-bottom: 40px;
 }
 
 .mb-20
@@ -23,13 +41,14 @@ body
 /* NAVBAR */
 .navbar-default
 {
-    background-color: #2C3D50;
-    border-color: #2C3D50;
+  background-color: #2C3D50;
+  border-color: #2C3D50;
+  font-weight: 700;
 }
 
 .navbar-brand
 {
-  font-size: 20px;
+  font-size: 1.5em;
   font-weight: bold;
 }
 
@@ -57,16 +76,6 @@ body
   color: #1ABC9C;
 }
 
-.nav .navbar-nav .navbar-right
-{
-
-}
-
-.nav li a
-{
-  font-weight: 600;
-}
-
 .navbar-default .navbar-toggle
 {
   border-color: #fff;
@@ -74,7 +83,8 @@ body
 
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:active,
-.navbar-default .navbar-toggle:visited
+.navbar-default .navbar-toggle:visited,
+.navbar-default .navbar-toggle:focus
 {
   border-color: #fff;
   background: none;
@@ -83,6 +93,13 @@ body
 .navbar-default .navbar-toggle .icon-bar
 {
   background: #fff;
+}
+
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form
+{
+  border: none;
+  box-shadow: none;
 }
 /* FINE NAVBAR */
 
@@ -101,18 +118,18 @@ body
 
 .jumbo-content img
 {
-  height: 200px;
+  height: 250px;
 }
 
 .jumbo-content h1
 {
-  font-weight: 600;
-  font-size: 55px;
+  font-weight: 700;
+  font-size: 4em;
 }
 
 .jumbo-content i
 {
-  font-size: 25px;
+  font-size: 1.5em;
 }
 
 .stella
@@ -123,11 +140,14 @@ body
 .jumbo-content .stella .divisore
 {
   height: 4px;
-  width: 180px;
+  width: 100px;
   border-radius: 10px;
   background: #fff;
   display: inline-block;
+  margin-bottom: 6px;
 }
+
+
 /* FINE JUMBO */
 /* FINE HEADER */
 
@@ -143,10 +163,18 @@ body
 .portfolio-title .stella .divisore
 {
   height: 4px;
-  width: 180px;
+  width: 100px;
   border-radius: 10px;
   background: #2C3D50;
+  vertical-align: middle;
   display: inline-block;
+  margin-bottom: 6px;
+}
+
+.portfolio-title h2
+{
+  font-size: 3em;
+  font-weight: 600;
 }
 
 .portfolio-title .stella i
@@ -156,7 +184,7 @@ body
 
 .griglia
 {
-  padding: 20px;
+  padding: 30px 0;
 }
 
 .lavoro img
@@ -165,4 +193,154 @@ body
 }
 
 /* FINE SECTION PORTFOLIO */
+
+/* SECTION ABOUT */
+.about
+{
+  background: #1ABC9C;
+}
+
+.about
+{
+  padding: 40px 0;
+  color: #fff;
+}
+
+.about-title h2
+{
+  font-size: 3em;
+  font-weight: 600;
+}
+
+.about-title .stella .divisore
+{
+  height: 4px;
+  width: 100px;
+  border-radius: 10px;
+  background: #fff;
+  display: inline-block;
+  vertical-align: middle;
+  margin-bottom: 6px;
+}
+
+.about-title .stella i
+{
+  font-size: 25px;
+}
+
+.about p
+{
+  font-size: 1.25em;
+}
+
+.btn-group-lg>.btn, .btn-lg
+{
+  padding: 17px 20px;
+  border-radius: 10px;
+  background: none;
+  border: 2px solid #fff;
+  color: #fff;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.about .btn-group-lg>.btn:hover, .about .btn-lg:hover,
+.about .btn-group-lg>.btn:active, .about .btn-lg:active,
+.about .btn-group-lg>.btn:visited, .about .btn-lg:visited,
+.about .btn-group-lg>.btn:focus, .about .btn-lg:focus
+{
+  background: #fff;
+  border: 2px solid #fff;
+  color: #000;
+  padding: 17px 20px;
+  border-radius: 10px;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.btn span
+{
+  margin-right: 8px;
+}
+/* FINE SECTION ABOUT */
+
+/* SECTION CONTACT ME */
+.contact
+{
+  padding: 40px 0;
+  color: #2C3D50;
+}
+
+.contact-title h2
+{
+  font-size: 3em;
+  font-weight: 600;
+}
+
+.contact-title .stella .divisore
+{
+  height: 4px;
+  width: 100px;
+  border-radius: 10px;
+  background: #2C3D50;
+  vertical-align: middle;
+  display: inline-block;
+  margin-bottom: 6px;
+}
+
+.contact-title .stella i
+{
+  font-size: 25px;
+}
+
+.form-control
+{
+  padding-bottom: 70px;
+  padding-top: 20px;
+  border-radius: 0;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 1px solid #ccc;
+}
+
+.form-control::placeholder
+{
+  color: #6D757D;
+  font-size: 1.5em;
+}
+
+.contact .btn-group-lg>.btn, .contact .btn-lg
+{
+  padding: 17px 20px;
+  border-radius: 10px;
+  background: #1ABC9C;
+  border: 2px solid #1ABC9C;
+  color: #fff;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.contact .btn-group-lg>.btn:hover, .contact .btn-lg:hover,
+.contact .btn-group-lg>.btn:active, .contact .btn-lg:active,
+.contact .btn-group-lg>.btn:visited, .contact .btn-lg:visited,
+.contact .btn-group-lg>.btn:focus, .contact .btn-lg:focus
+{
+  background: #139a7f;
+  border: 2px solid #139a7f;
+  padding: 17px 20px;
+  border-radius: 10px;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+/* FINE SECTION CONTACT ME */
 /* FINE MAIN */
+
+/* FOOTER */
+/* PRIMA SECTION FOOTER */
+.location h4, .social h4, .freelencer h4
+{
+
+}
+/* FINE PRIMA SECTION FOOTER */
+
+/* SECONDA SECTION FOOTER */
+
+/* FINE SECONDA SECTION FOOTER */
+/* FINE FOOTER */
