@@ -9,53 +9,7 @@ body
   font-size: 16px;
 }
 
-/* CLASSI UTILITY */
-.mt-40
-{
-  margin-top: 40px;
-}
-
-.mt-30
-{
-  margin-top: 30px;
-}
-
-.mt-20
-{
-  margin-top: 20px;
-}
-
-.mt-10
-{
-  margin-top: 10px;
-}
-
-.mb-40
-{
-  margin-bottom: 40px;
-}
-
-.mb-20
-{
-  margin-bottom: 20px;
-}
-
-.ml-15
-{
-  margin-left: 15px;
-}
-/* FINE CLASSI UTILITY */
-
-/* HEADER */
-/* NAVBAR */
-
-.navbar-default
-{
-  background-color: #2C3D50;
-  border-color: #2C3D50;
-  font-weight: 700;
-}
-
+/* MEDIA QUERY */
 @media screen and (min-width: 992px)
 {
   .navbar-nav>li>a
@@ -164,9 +118,61 @@ body
   {
     font-size: 2em;
   }
+
+  .portfolio, .about, .contact, .info
+  {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+/* FINE MEDIA QUERY */
+
+/* CLASSI UTILITY */
+.mt-40
+{
+  margin-top: 40px;
 }
 
+.mt-30
+{
+  margin-top: 30px;
+}
 
+.mt-20
+{
+  margin-top: 20px;
+}
+
+.mt-10
+{
+  margin-top: 10px;
+}
+
+.mb-40
+{
+  margin-bottom: 40px;
+}
+
+.mb-20
+{
+  margin-bottom: 20px;
+}
+
+.ml-15
+{
+  margin-left: 15px;
+}
+/* FINE CLASSI UTILITY */
+
+/* HEADER */
+/* NAVBAR */
+
+.navbar-default
+{
+  background-color: #2C3D50;
+  border-color: #2C3D50;
+  font-weight: 700;
+}
 
 .navbar-brand
 {
@@ -271,7 +277,8 @@ body
 
 .portfolio
 {
-  padding: 40px 0;
+  padding-top: 40px;
+  padding-bottom: 40px;
   color: #2C3D50;
 }
 
@@ -340,7 +347,8 @@ body
 .about
 {
   background: #1ABC9C;
-  padding: 40px 0;
+  padding-top: 40px;
+  padding-bottom: 40px;
   color: #fff;
 }
 
@@ -402,7 +410,8 @@ body
 /* SECTION CONTACT ME */
 .contact
 {
-  padding: 40px 0;
+  padding-top: 40px;
+  padding-bottom: 40px;
   color: #2C3D50;
 }
 
@@ -474,7 +483,8 @@ body
 .info
 {
   background: #2C3D50;
-  padding: 40px 0;
+  padding-top: 40px;
+  padding-bottom: 40px;
   color: #fff;
 }
 
@@ -523,7 +533,7 @@ body
 {
 	display:inline-block;
 	position:relative;
-	margin:0 auto 0 auto;
+	margin: 0 auto 0 auto;
   border: 2px solid #fff;
 	border-radius: 50%;
 	text-align:center;
